@@ -1,0 +1,69 @@
+`accepts-transfers`: Boolean = false
+`allow-flight`: Boolean = false
+`allow-nether`: Boolean = true
+`broadcast-console-to-ops`: Boolean = true
+`broadcast-rcon-to-ops`: Boolean = true
+`difficulty`: ("peaceful"|"easy"|"normal"|"hard") = "easy"
+`enable-command-block`: Boolean = false
+`enable-jmx-monitoring`: Boolean = false
+`enable-rcon`: Boolean = false
+`enable-status`: Boolean = true
+`enable-query`: Boolean = false
+`enforce-secure-profile`: Boolean = true
+`enforce-whitelist`: Boolean = false
+`entity-broadcast-range-percentage`: Int(isBetween(10, 1000)) = 100
+`force-gamemode`: Boolean = false
+`function-permission-level`: Int(isBetween(1, 4)) = 2
+`gamemode`: ("survival"|"creative"|"adventure"|"spectator") = "survival"
+`generate-structures`: Boolean = true
+`generator-settings`: String = "{}"
+`hardcore`: Boolean = false
+`hide-online-players`: Boolean = false
+`initial-disabled-packs`: String = ""
+`initial-enabled-packs`: String = "vanilla"
+`level-name`: String = "world"
+`level-seed`: String = ""
+`level-type`: ("minecraft:normal"
+    |"minecraft:flat"
+    |"minecraft:large_biomes"
+    |"minecraft:amplified"
+    |"minecraft:single_biome_surface"
+    |"buffet"
+    |"default_1_1"
+    |"customized") = "minecraft:normal"
+`log-ips`: Boolean = true
+`max-chained-neighbor-updates`: Int = 1000000
+`max-players`: Int(isBetween(0, 2**31 - 1)) = 20
+`max-tick-time`: Int(isBetween(-1, 2**31 - 1)) = 60000 // Modified from (-1 or 0–(2^63 - 1)) to prevent integer overflow.
+`max-world-size`: Int(isBetween(1, 29999984)) = 29999984
+`motd`: String = "A Minecraft Server"
+`network-compression-threshold`: Int = 256
+`online-mode`: Boolean = true
+`op-permission-level`: Int(isBetween(1, 4)) = 2
+`player-idle-timeout`: Int = 0
+`prevent-proxy-connections`: Boolean = false
+`previews-chat`: Boolean = false
+`pvp`: Boolean = true
+`query.port`: Int(isBetween(1, 2**16 - 2)) = 25565
+`rate-limit`: Int = 0
+`rcon.password`: String = ""
+`rcon.port`: Int(isBetween(1, 2**16 - 2)) = 25575
+`region-file-compression`: String = "deflate"
+`resource-pack`: String = ""
+`resource-pack-id`: String = ""
+`resource-pack-prompt`: String = ""
+`resource-pack-sha1`: String = ""
+`require-resource-pack`: Boolean = false
+`server-ip`: String = ""
+`server-port`: Int(isBetween(1, 2**16 - 2)) = 25565
+`simulation-distance`: Int(isBetween(3, 32)) = 10
+`snooper-enabled`: Boolean = true
+`spawn-animals`: Boolean = true
+`spawn-monsters`: Boolean = true
+`spawn-npcs`: Boolean = true
+`spawn-protection`: Int = 16
+`sync-chunk-writes`: Boolean = true
+`text-filtering-config`: String = ""
+`use-native-transport`: Boolean = true
+`view-distance`: Int(isBetween(3, 32)) = 10
+`white-list`: Boolean = false
